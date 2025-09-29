@@ -43,7 +43,7 @@ def main():
     todayWord = random.choice(wordList)
     print(todayWord)
 
-    #User should get 6 guesses to guess
+    #User should get 6 guesses
     guessNum = 1
     while guessNum <= 6:
         #Ask user for their guess
